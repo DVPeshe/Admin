@@ -1,0 +1,5 @@
+server:
+  port: 8187
+  servlet:
+    context-path: /service1
+
