@@ -11,6 +11,6 @@ public class Controller {
 
     @GetMapping
     public ResponseEntity<?> getMessage() {
-        return ResponseEntity.ok("Do you hear a voice? Service2 is working.");
+        return ResponseEntity.ok("Do you hear a voice? Service2 is working.Yes");
     }
 }
