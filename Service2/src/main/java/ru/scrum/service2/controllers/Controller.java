@@ -24,4 +24,9 @@ public class Controller {
     public ResponseEntity<?> getSomethingElse() {
         return ResponseEntity.ok("quantity");
     }
+
+    @GetMapping("/main")
+    public ResponseEntity<?> getMain() {
+        return ResponseEntity.ok("main");
+    }
 }
