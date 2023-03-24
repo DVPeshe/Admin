@@ -19,4 +19,9 @@ public class Controller {
     public ResponseEntity<?> getMessage(@PathVariable String param) {
         return ResponseEntity.ok("param = " + param);
     }
+
+    @GetMapping("/quantity")
+    public ResponseEntity<?> getSomethingElse() {
+        return ResponseEntity.ok("quantity");
+    }
 }
